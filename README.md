@@ -3,24 +3,31 @@
 ### Time-dependent Schrödinger equation $\to$ Stationary Schrödinger equation
 
 The Schrödinger equation is a partial differential equation that governs the wave function of a non-relativistic quantum-mechanical system.
+
 $$
-    i \hbar \frac{d}{dt} \psi = \hat{H} \psi 
+i \hbar \frac{d}{dt} \psi = \hat{H} \psi 
 $$
+
 with $\psi$ is the time-dependent wave function, $\hat{H}$ is the Hamiltonien operator and $\hbar$ is the reduced Planck's constant.
 
 We assume that the wave function can be separated into a spatial part $\psi(\mathbf{r})$ and a temporal part $T(t)$:
+
 $$
 \Psi(\mathbf{r}, t) = \psi(\mathbf{r}) T(t)
 $$
 
 Substituting this expression into the time-dependent Schrödinger equation gives us:
+
 $$
 i\hbar \psi(\mathbf{r}) \frac{\partial T(t)}{\partial t} = T(t) \hat{H} \psi(\mathbf{r})
 $$
+
 We rearrange and we find:
+
 $$
 i\hbar \frac{1}{T(t)} \frac{\partial T(t)}{\partial t} = \frac{1}{\psi(\mathbf{r})} \hat{H} \psi(\mathbf{r})
 $$
+
 The left-hand side of the equation depends only on time, while the right-hand side depends only on position. For this equality to be true for all \mathbf{r}\s and \(t\), both sides must be equal to a constant, which we call \(E\) (the energy of the system):
 
 $$
@@ -38,7 +45,7 @@ $$
 \hat{H} \psi(\mathbf{r}) = E \psi(\mathbf{r})
 $$
 
-This equation describes the stationary states of the quantum system, where \(E\) is the energy of the stationary state corresponding to the wave function \(\psi(\mathbf{r})\).
+This equation describes the stationary states of the quantum system, where \(E\) is the energy of the stationary state corresponding to the wave function \($\psi(\mathbf{r})$.
 
 ### Radial differential equation
 
