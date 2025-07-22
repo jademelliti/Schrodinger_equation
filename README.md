@@ -130,3 +130,5 @@ a & d_2 & a & 0 & \cdots & 0 \
 $$
 
 This matrix is symmetric. We have used the boundary conditions u(0)=u(rmax)=0u(0)=u(rmax​)=0. The task now is to solve the eigenvalue problem, i.e., to diagonalize this tridiagonal matrix.
+
+Project with: Mikael Tacu
